@@ -4,6 +4,9 @@ disable=
       C0115, # Missing-class-docstring
       C0116, # missing-function-docstring
       W0703, # Catching to general exception Exception
+      R0903, # too-few-public-methods
+      W0719, # broad-exception-raised
+      
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
@@ -252,7 +255,7 @@ variable-naming-style=snake_case
 
 # Regular expression matching correct variable names. Overrides variable-
 # naming-style. If left empty, variable names will be checked with the set
-# naming style.
+      # naming style.
 #variable-rgx=
 
 
